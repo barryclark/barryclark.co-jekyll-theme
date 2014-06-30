@@ -15,14 +15,14 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 960px;
   padding: 0 10px;
   width: 100%;
 }
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: 600;
   
-  line-height: 1.7;
+  line-height: 1.6;
   margin: 1em 0 15px;
   padding: 0;
 
@@ -70,7 +70,7 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
     color: $blue;
   }
@@ -270,6 +270,76 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+// .newsletter
+
+form {
+  background-color: $lightGray;
+  border: 1px solid #ddd;
+  margin-top: 25px;
+  padding: 10px 30px;
+  max-width: 400px;
+
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+
+
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0 0;
+  }
+
+  input[type="text"], input[type="email"] {
+    font-family: $helvetica;
+    font-size: 18px;
+    border: 1px solid $lightGray;
+    color: $darkGray;
+    width: 280px;
+    display: block;
+    border-radius: 3px;
+    padding: 0.4em 0.5em;
+    margin: 0 0 0.5em;
+    -webkit-appearance: none;
+
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+
+    &:active {
+      border: 1px solid $gray;
+    }
+  }
+
+  .button {
+    display: inline-block;
+    background: $blue;
+    border: 0;
+    margin: 0.25em 0;
+    padding: 0.5em 0.7em 0.4em;
+    margin-bottom: 0;
+    color: $white;
+
+    font-family: $helvetica;
+    font-weight: 300;
+    font-size: 21px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 5px;
+    vertical-align: middle;
+    
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+  }
+
+  p {
+    font-size: 12px;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
