@@ -1,14 +1,19 @@
 ---
 layout: page
-title: About
 ---
 
-Some information about you!
+## I do X, Y, Z (mission statment)
 
-### More Information
+<img src="{{ site.avatar }}" />
 
-A place to include any other types of information that you'd like to include about yourself. 
+## More Information
 
-### Contact me
+Info about my job at DoSomething... and past jobs(?).
 
-[email@domain.com](mailto:email@domain.com)
+Link out to my bucket list.
+
+## Contact me
+
+Make it really easy to get in touch with me. Include my email, have a grab a coffee message in there. 
+
+[barry@barryclark.co](mailto:barry@barryclark.co)
