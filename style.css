@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
       line-height: 1.4; } }
 
 h1 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 32px; }
   h1 a {
     color: inherit; }
@@ -137,7 +137,7 @@ img {
 /* LAYOUT / SECTIONS
 /*/
 .wrapper-masthead {
-  margin-bottom: 40px; }
+  margin-bottom: 50px; }
 
 .masthead {
   padding: 20px 0;
@@ -223,6 +223,9 @@ nav {
   font-style: italic; }
 .post .comments {
   margin-top: 10px; }
+.post .read-more {
+  text-transform: uppercase;
+  font-size: 15px; }
 
 .wrapper-footer {
   margin-top: 50px;

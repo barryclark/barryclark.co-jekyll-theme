@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
   
 h1 {  
-  font-weight: 400;
+  font-weight: 500;
   font-size: 32px;
   a {
     color: inherit;
@@ -145,7 +145,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .masthead {
@@ -257,6 +257,11 @@ nav {
 
   .comments {
     margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
   }
 }
 
