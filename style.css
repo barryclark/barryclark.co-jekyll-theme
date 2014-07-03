@@ -142,7 +142,7 @@ img {
   border-bottom: 1px solid #dddddd; }
 
 .masthead {
-  padding: 30px 0; }
+  padding: 40px 0; }
   @media screen and (max-width: 640px) {
     .masthead {
       text-align: center; } }
@@ -198,9 +198,26 @@ nav {
       nav a {
         margin: 0 10px;
         color: #4183c4; } }
+  nav .button {
+    display: inline-block;
+    background: #fa6900;
+    border: 0;
+    margin-bottom: 6px;
+    margin-left: 20px;
+    padding: 0.4em 0.7em 0.4em;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap; }
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   border-bottom: 1px solid #eeeeee; }
 
 .posts > .post:last-child {
