@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<section class="posts">
+<div class="posts">
 	{% for post in site.posts %}
     <article class="post">    
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
     </article>
   	{% endfor %}
-  	<a href="{{ site.baseurl }}/blog.html">More writing</a>
-</section>
+  	<a class="see-more" href="{{ site.baseurl }}/blog.html">More Blog Posts</a>
+</div>
 
-<section class="newsletter-cta">
+<!--<section class="newsletter-cta">
 	<header>Free Newsletter</header>
 	<p>Sign up get to get latest articles on starting a career in web development.</p>
 	<a href="{{ site.baseurl }}/newsletter.html">Get Started</a>
-</section>
+</section>-->

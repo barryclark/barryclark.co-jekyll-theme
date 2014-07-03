@@ -83,11 +83,15 @@ p {
   margin: 15px 0; }
 
 a {
-  color: #4183c4;
+  color: #fa6900;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:active {
-    color: #4183c4; }
+    color: #fa6900; }
+
+a.see-more {
+  text-transform: uppercase;
+  font-size: 14px; }
 
 ul, ol {
   margin: 15px 0;
@@ -233,9 +237,6 @@ nav {
   font-style: italic; }
 .post .comments {
   margin-top: 10px; }
-.post .read-more {
-  text-transform: uppercase;
-  font-size: 15px; }
 
 .wrapper-footer {
   margin-top: 50px;

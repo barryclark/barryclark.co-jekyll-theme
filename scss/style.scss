@@ -68,12 +68,17 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $orange;
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $orange;
   }
+}
+
+a.see-more {
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 ul, ol {
@@ -223,7 +228,7 @@ nav {
 
   .button {
     display: inline-block;
-    background: #FA6900;
+    background: $orange;
     border: 0;
     margin-left: 20px;
     padding: 0.4em 0.7em 0.4em;
@@ -268,11 +273,6 @@ nav {
 
   .comments {
     margin-top: 10px;
-  }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
   }
 }
 
