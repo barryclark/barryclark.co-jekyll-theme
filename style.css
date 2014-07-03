@@ -204,7 +204,7 @@ nav {
     @media screen and (max-width: 640px) {
       nav a {
         margin: 0 10px;
-        color: #4183c4; } }
+        color: #b6e0f3; } }
   nav .button {
     display: inline-block;
     background: #fa6900;
@@ -282,7 +282,7 @@ form {
       border: 1px solid #666666; }
   form .button {
     display: inline-block;
-    background: #4183c4;
+    background: #b6e0f3;
     border: 0;
     margin: 0.25em 0;
     padding: 0.5em 0.7em 0.4em;
