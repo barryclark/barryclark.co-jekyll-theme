@@ -151,7 +151,7 @@ img {
   float: left;
   width: 90px;
   height: 90px;
-  margin-right: 35px;
+  margin-right: 40px;
   cursor: pointer; }
   @media screen and (max-width: 640px) {
     .site-avatar {
@@ -164,12 +164,13 @@ img {
 .site-description {
   float: left;
   margin: 0;
+  margin-top: 2px;
   max-width: 340px;
   color: #333333;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia, serif;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 19px;
+  line-height: 1.6;
   cursor: pointer; }
   @media screen and (max-width: 640px) {
     .site-description {
@@ -179,9 +180,9 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px;
+  margin-top: 29px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px; }
+  font-size: 17px; }
   @media screen and (max-width: 640px) {
     nav {
       float: none;
@@ -202,7 +203,6 @@ nav {
     display: inline-block;
     background: #fa6900;
     border: 0;
-    margin-bottom: 6px;
     margin-left: 20px;
     padding: 0.4em 0.7em 0.4em;
     margin-bottom: 0;
@@ -210,7 +210,7 @@ nav {
     text-align: center;
     text-decoration: none;
     text-shadow: none;
-    border-radius: 5px;
+    border-radius: 2px;
     vertical-align: middle;
     cursor: pointer;
     background-image: none;
@@ -268,7 +268,7 @@ form {
     color: #333333;
     width: 280px;
     display: block;
-    border-radius: 3px;
+    border-radius: 2px;
     padding: 0.4em 0.5em;
     margin: 0 0 0.5em;
     -webkit-appearance: none;
@@ -291,7 +291,7 @@ form {
     text-align: center;
     text-decoration: none;
     text-shadow: none;
-    border-radius: 5px;
+    border-radius: 2px;
     vertical-align: middle;
     cursor: pointer;
     background-image: none;

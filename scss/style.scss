@@ -162,7 +162,7 @@ img {
   float: left;
   width: 90px;
   height: 90px;
-  margin-right: 35px;
+  margin-right: 40px;
   cursor: pointer;
 
   @include mobile {
@@ -179,12 +179,13 @@ img {
 .site-description {
   float: left;
   margin: 0;
+  margin-top: 2px;
   max-width: 340px;
   color: $darkGray;
-  font-family: $helveticaNeue;
+  font-family: $georgia;//$helveticaNeue;
   font-weight: 300; 
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 19px;
+  line-height: 1.6;
   cursor: pointer;
   
   @include mobile {
@@ -196,9 +197,9 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 29px; // @TODO: Vertically middle align
   font-family: $helveticaNeue; 
-  font-size: 18px;
+  font-size: 17px;
   
   @include mobile {
     float: none;
@@ -224,7 +225,6 @@ nav {
     display: inline-block;
     background: #FA6900;
     border: 0;
-    margin-bottom: 6px;
     margin-left: 20px;
     padding: 0.4em 0.7em 0.4em;
     margin-bottom: 0;
@@ -233,7 +233,7 @@ nav {
     text-align: center;
     text-decoration: none;
     text-shadow: none;
-    border-radius: 5px;
+    border-radius: 2px;
     vertical-align: middle;
     
     cursor: pointer;
@@ -316,7 +316,7 @@ form {
     color: $darkGray;
     width: 280px;
     display: block;
-    border-radius: 3px;
+    border-radius: 2px;
     padding: 0.4em 0.5em;
     margin: 0 0 0.5em;
     -webkit-appearance: none;
@@ -345,7 +345,7 @@ form {
     text-align: center;
     text-decoration: none;
     text-shadow: none;
-    border-radius: 5px;
+    border-radius: 2px;
     vertical-align: middle;
     
     cursor: pointer;
