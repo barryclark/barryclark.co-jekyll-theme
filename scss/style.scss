@@ -117,11 +117,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: $lighterGray;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: $lighterGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -146,11 +146,12 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-color: #eee;
+  border-bottom: 1px solid $lightGray;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  padding: 30px 0;
   
   @include mobile {
     text-align: center;
@@ -159,9 +160,9 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 25px;
+  width: 90px;
+  height: 90px;
+  margin-right: 30px;
   cursor: pointer;
 
   @include mobile {
@@ -177,8 +178,8 @@ img {
 
 .site-description {
   float: left;
-  margin: 6px 0 0 0;
-  max-width: 360px;
+  margin: 0;
+  max-width: 340px;
   color: $darkGray;
   font-family: $helveticaNeue;
   font-weight: 300; 
@@ -226,7 +227,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $lighterGray;
 }
 
 .posts > .post:last-child {
@@ -256,9 +257,9 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-top: 1px solid $lightGray;
+  border-bottom: 1px solid $lightGray;
+  background-color: $lighterGray;
 }
 
 footer {
@@ -269,7 +270,7 @@ footer {
 // .newsletter
 
 form {
-  background-color: $lightGray;
+  background-color: $lighterGray;
   border: 1px solid #ddd;
   margin-top: 25px;
   padding: 10px 30px;
@@ -290,7 +291,7 @@ form {
   input[type="text"], input[type="email"] {
     font-family: $helvetica;
     font-size: 18px;
-    border: 1px solid $lightGray;
+    border: 1px solid $lighterGray;
     color: $darkGray;
     width: 280px;
     display: block;

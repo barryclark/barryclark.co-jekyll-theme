@@ -137,20 +137,21 @@ img {
 /* LAYOUT / SECTIONS
 /*/
 .wrapper-masthead {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  background-color: #eeeeee;
+  border-bottom: 1px solid #dddddd; }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid #eeeeee; }
+  padding: 30px 0; }
   @media screen and (max-width: 640px) {
     .masthead {
       text-align: center; } }
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 25px;
+  width: 90px;
+  height: 90px;
+  margin-right: 30px;
   cursor: pointer; }
   @media screen and (max-width: 640px) {
     .site-avatar {
@@ -162,8 +163,8 @@ img {
 
 .site-description {
   float: left;
-  margin: 6px 0 0 0;
-  max-width: 360px;
+  margin: 0;
+  max-width: 340px;
   color: #333333;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
