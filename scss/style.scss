@@ -121,6 +121,29 @@ img {
   color: $gray;
 }
 
+.button {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0.4em 0.7em 0.4em;
+  vertical-align: middle;
+  border-radius: 2px;
+  border: 0;
+  
+  background: $orange;
+  color: $white;
+
+  font-size: 18px;
+  font-family: $helvetica;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  
+  background-image: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
@@ -179,7 +202,7 @@ img {
   }
 
   img {
-    border-radius: 2px;
+    border-radius: 3px;
   }
 }
 
@@ -187,7 +210,7 @@ img {
   float: left;
   margin: 0;
   margin-top: 2px;
-  max-width: 340px;
+  max-width: 310px;
   color: $darkGray;
   font-family: $georgia;//$helveticaNeue;
   font-weight: 300; 
@@ -220,7 +243,6 @@ nav {
     color: $gray;
     text-align: right;
     font-weight: 300;
-    letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
@@ -229,23 +251,8 @@ nav {
   }
 
   .button {
-    display: inline-block;
-    background: $orange;
-    border: 0;
     margin-left: 20px;
-    padding: 0.4em 0.7em 0.4em;
-    margin-bottom: 0;
-    color: $white;
-
-    text-align: center;
-    text-decoration: none;
-    text-shadow: none;
-    border-radius: 2px;
-    vertical-align: middle;
-    
-    cursor: pointer;
-    background-image: none;
-    white-space: nowrap;
+    font-size: 16px;
   }
 }
 
@@ -333,26 +340,8 @@ form {
   }
 
   .button {
-    display: inline-block;
-    background: $blue;
-    border: 0;
+    //background: $blue;
     margin: 0.25em 0;
-    padding: 0.5em 0.7em 0.4em;
-    margin-bottom: 0;
-    color: $white;
-
-    font-family: $helvetica;
-    font-weight: 300;
-    font-size: 21px;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: none;
-    border-radius: 2px;
-    vertical-align: middle;
-    
-    cursor: pointer;
-    background-image: none;
-    white-space: nowrap;
   }
 
   p {

@@ -124,6 +124,25 @@ img {
   font-style: italic;
   color: #666666; }
 
+.button {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0.4em 0.7em 0.4em;
+  vertical-align: middle;
+  border-radius: 2px;
+  border: 0;
+  background: #fa6900;
+  color: white;
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  background-image: none;
+  white-space: nowrap;
+  cursor: pointer; }
+
 ::-moz-selection {
   color: black;
   background: #eeeeee; }
@@ -165,13 +184,13 @@ img {
       display: block;
       margin: 0 auto; } }
   .site-avatar img {
-    border-radius: 2px; }
+    border-radius: 3px; }
 
 .site-description {
   float: left;
   margin: 0;
   margin-top: 2px;
-  max-width: 340px;
+  max-width: 310px;
   color: #333333;
   font-family: Georgia, serif;
   font-weight: 300;
@@ -199,28 +218,14 @@ nav {
     margin-left: 20px;
     color: #666666;
     text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px; }
+    font-weight: 300; }
     @media screen and (max-width: 640px) {
       nav a {
         margin: 0 10px;
         color: #b6e0f3; } }
   nav .button {
-    display: inline-block;
-    background: #fa6900;
-    border: 0;
     margin-left: 20px;
-    padding: 0.4em 0.7em 0.4em;
-    margin-bottom: 0;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: none;
-    border-radius: 2px;
-    vertical-align: middle;
-    cursor: pointer;
-    background-image: none;
-    white-space: nowrap; }
+    font-size: 16px; }
 
 .posts > .post {
   padding-bottom: 1em;
@@ -281,24 +286,7 @@ form {
     form input[type="text"]:active, form input[type="email"]:active {
       border: 1px solid #666666; }
   form .button {
-    display: inline-block;
-    background: #b6e0f3;
-    border: 0;
-    margin: 0.25em 0;
-    padding: 0.5em 0.7em 0.4em;
-    margin-bottom: 0;
-    color: white;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 21px;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: none;
-    border-radius: 2px;
-    vertical-align: middle;
-    cursor: pointer;
-    background-image: none;
-    white-space: nowrap; }
+    margin: 0.25em 0; }
   form p {
     font-size: 12px; }
 
