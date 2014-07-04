@@ -255,8 +255,51 @@ footer {
   padding: 20px 0;
   text-align: center; }
 
-form {
+.cta {
+  border: 1px solid #dddddd;
+  margin-top: 25px;
+  padding: 10px 30px;
+  max-width: 800px;
   background-color: #eeeeee;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
+  .cta .description {
+    float: left;
+    max-width: 330px;
+    border-right: 2px solid #dddddd; }
+  .cta form {
+    background-color: #dddddd;
+    float: right;
+    max-width: 350px; }
+    .cta form label {
+      display: block;
+      font-size: 16px;
+      font-weight: 400;
+      margin: 10px 0 0; }
+    .cta form input[type="text"], .cta form input[type="email"] {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      border: 1px solid #eeeeee;
+      color: #333333;
+      width: 280px;
+      display: block;
+      border-radius: 2px;
+      padding: 0.4em 0.5em;
+      margin: 0 0 0.5em;
+      -webkit-appearance: none;
+      -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+      .cta form input[type="text"]:active, .cta form input[type="email"]:active {
+        border: 1px solid #666666; }
+    .cta form .button {
+      margin: 0.25em 0; }
+    .cta form p {
+      font-size: 12px; }
+
+form {
+  background-color: white;
   border: 1px solid #dddddd;
   margin-top: 25px;
   padding: 10px 30px;
