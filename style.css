@@ -236,7 +236,7 @@ nav {
   float: right;
   margin-top: 29px;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 13px; }
+  font-size: 12px; }
   @media screen and (max-width: 640px) {
     nav {
       float: none;
