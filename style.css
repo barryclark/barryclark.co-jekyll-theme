@@ -235,8 +235,8 @@ form input[type="text"], form input[type="email"] {
 nav {
   float: right;
   margin-top: 29px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 17px; }
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px; }
   @media screen and (max-width: 640px) {
     nav {
       float: none;
@@ -245,16 +245,20 @@ nav {
       font-size: 16px; } }
   nav a {
     margin-left: 20px;
-    color: white;
+    color: #eeeeee;
     text-align: right;
-    font-weight: 300; }
+    font-weight: 400;
+    text-transform: uppercase; }
     @media screen and (max-width: 640px) {
       nav a {
         margin: 0 10px;
         color: #4f95b6; } }
   nav .button {
     margin-left: 20px;
-    font-size: 16px; }
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 2px; }
 
 .posts > .post {
   padding-bottom: 1em;

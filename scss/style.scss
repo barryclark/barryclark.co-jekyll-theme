@@ -277,8 +277,8 @@ form {
 nav {
   float: right;
   margin-top: 29px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue; 
-  font-size: 17px;
+  font-family: $helvetica; 
+  font-size: 13px;
   
   @include mobile {
     float: none;
@@ -289,9 +289,10 @@ nav {
 
   a {
     margin-left: 20px;
-    color: white;//$gray;
+    color: $lighterGray;
     text-align: right;
-    font-weight: 300;
+    font-weight: 400;
+    text-transform: uppercase;
 
     @include mobile {
       margin: 0 10px;
@@ -302,6 +303,9 @@ nav {
   .button {
     margin-left: 20px;
     font-size: 16px;
+    color: $white;
+    text-transform: capitalize;
+    margin-bottom: 2px;
   }
 }
 
