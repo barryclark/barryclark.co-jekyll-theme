@@ -83,7 +83,7 @@ p {
   margin: 15px 0; }
 
 a {
-  color: #568da7;
+  color: #4f95b6;
   text-decoration: none;
   cursor: pointer; }
 
@@ -189,7 +189,7 @@ form input[type="text"], form input[type="email"] {
 /*/
 .wrapper-masthead {
   margin-bottom: 50px;
-  background-color: #568da7;
+  background-color: #4f95b6;
   border-bottom: 1px solid #dddddd; }
 
 .masthead {
@@ -251,7 +251,7 @@ nav {
     @media screen and (max-width: 640px) {
       nav a {
         margin: 0 10px;
-        color: #568da7; } }
+        color: #4f95b6; } }
   nav .button {
     margin-left: 20px;
     font-size: 16px; }
