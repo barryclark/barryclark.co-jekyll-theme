@@ -264,15 +264,17 @@ nav {
   padding-bottom: 1em;
   border-bottom: none; }
 
-.post blockquote {
-  margin: 1.8em 0.8em;
-  border-left: 2px solid #666666;
-  padding: 0.1em 1em;
-  color: #666666;
-  font-size: 22px;
-  font-style: italic; }
-.post .comments {
-  margin-top: 10px; }
+.post {
+  max-width: 700px; }
+  .post blockquote {
+    margin: 1.8em 0.8em;
+    border-left: 2px solid #666666;
+    padding: 0.1em 1em;
+    color: #666666;
+    font-size: 22px;
+    font-style: italic; }
+  .post .comments {
+    margin-top: 10px; }
 
 .wrapper-footer {
   margin-top: 50px;
