@@ -225,7 +225,7 @@ form {
 }
 
 .masthead {
-  padding: 40px 0;
+  padding: 35px 0;
   
   @include mobile {
     text-align: center;
@@ -253,14 +253,19 @@ form {
 .site-description {
   float: left;
   margin: 0;
-  margin-top: 2px;
-  max-width: 310px;
-  color: white;//$darkGray;
-  font-family: $georgia;//$helveticaNeue;
+  margin-top: 7px;
+  max-width: 316px;
+  color: rgba(255, 255, 255, 0.7);//white;
+  font-family: $merriweather;
   font-weight: 300; 
-  font-size: 19px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.7;
   cursor: pointer;
+
+  b {
+    color: white;
+    font-weight: 400;
+  }
   
   @include mobile {
     float: none;

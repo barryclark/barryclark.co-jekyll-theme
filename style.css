@@ -193,7 +193,7 @@ form input[type="text"], form input[type="email"] {
   border-bottom: 1px solid #dddddd; }
 
 .masthead {
-  padding: 40px 0; }
+  padding: 35px 0; }
   @media screen and (max-width: 640px) {
     .masthead {
       text-align: center; } }
@@ -215,14 +215,17 @@ form input[type="text"], form input[type="email"] {
 .site-description {
   float: left;
   margin: 0;
-  margin-top: 2px;
-  max-width: 310px;
-  color: white;
-  font-family: Georgia, serif;
+  margin-top: 7px;
+  max-width: 316px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Merriweather', Georgia, serif;
   font-weight: 300;
-  font-size: 19px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.7;
   cursor: pointer; }
+  .site-description b {
+    color: white;
+    font-weight: 400; }
   @media screen and (max-width: 640px) {
     .site-description {
       float: none;
