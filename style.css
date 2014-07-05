@@ -86,8 +86,6 @@ a {
   color: #fa6900;
   text-decoration: none;
   cursor: pointer; }
-  a:hover, a:active {
-    color: #fa6900; }
 
 a.see-more {
   text-transform: uppercase;
@@ -123,6 +121,34 @@ img {
 .date {
   font-style: italic;
   color: #666666; }
+
+form label {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0 0; }
+form input[type="text"], form input[type="email"] {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #eeeeee;
+  color: #333333;
+  display: block;
+  border-radius: 2px;
+  padding: 0.4em 0.5em;
+  margin: 0 0 0.5em;
+  -webkit-appearance: none;
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+  form input[type="text"]:active, form input[type="email"]:active {
+    border: 1px solid #666666; }
+
+.email-signup input[type="text"], .email-signup input[type="email"] {
+  width: 240px; }
+.email-signup .button {
+  margin: 0.25em 0; }
+.email-signup p {
+  font-size: 12px; }
 
 .button {
   display: inline-block;
@@ -163,7 +189,7 @@ img {
 /*/
 .wrapper-masthead {
   margin-bottom: 50px;
-  background-color: #b6e0f3;
+  background-color: #438ebb;
   border-bottom: 1px solid #dddddd; }
 
 .masthead {
@@ -191,7 +217,7 @@ img {
   margin: 0;
   margin-top: 2px;
   max-width: 310px;
-  color: #333333;
+  color: white;
   font-family: Georgia, serif;
   font-weight: 300;
   font-size: 19px;
@@ -216,13 +242,13 @@ nav {
       font-size: 16px; } }
   nav a {
     margin-left: 20px;
-    color: #666666;
+    color: white;
     text-align: right;
     font-weight: 300; }
     @media screen and (max-width: 640px) {
       nav a {
         margin: 0 10px;
-        color: #b6e0f3; } }
+        color: #438ebb; } }
   nav .button {
     margin-left: 20px;
     font-size: 16px; }
@@ -259,79 +285,29 @@ footer {
   border: 1px solid #dddddd;
   margin-top: 25px;
   padding: 10px 30px;
-  max-width: 800px;
+  max-width: 730px;
   background-color: #eeeeee;
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
   .cta .description {
     float: left;
-    max-width: 330px;
+    max-width: 360px;
+    padding-right: 30px;
     border-right: 2px solid #dddddd; }
   .cta form {
-    background-color: #dddddd;
-    float: right;
-    max-width: 350px; }
-    .cta form label {
-      display: block;
-      font-size: 16px;
-      font-weight: 400;
-      margin: 10px 0 0; }
-    .cta form input[type="text"], .cta form input[type="email"] {
-      font-family: Helvetica, Arial, sans-serif;
-      font-size: 18px;
-      border: 1px solid #eeeeee;
-      color: #333333;
-      width: 280px;
-      display: block;
-      border-radius: 2px;
-      padding: 0.4em 0.5em;
-      margin: 0 0 0.5em;
-      -webkit-appearance: none;
-      -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-      -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); }
-      .cta form input[type="text"]:active, .cta form input[type="email"]:active {
-        border: 1px solid #666666; }
-    .cta form .button {
-      margin: 0.25em 0; }
-    .cta form p {
-      font-size: 12px; }
+    float: left;
+    padding: 30px; }
 
-form {
-  background-color: white;
-  border: 1px solid #dddddd;
+.newsletter-page form {
   margin-top: 25px;
   padding: 10px 30px;
-  max-width: 350px;
+  max-width: 300px;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
-  form label {
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 10px 0 0; }
-  form input[type="text"], form input[type="email"] {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    border: 1px solid #eeeeee;
-    color: #333333;
-    width: 280px;
-    display: block;
-    border-radius: 2px;
-    padding: 0.4em 0.5em;
-    margin: 0 0 0.5em;
-    -webkit-appearance: none;
-    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); }
-    form input[type="text"]:active, form input[type="email"]:active {
-      border: 1px solid #666666; }
-  form .button {
-    margin: 0.25em 0; }
-  form p {
-    font-size: 12px; }
 
 /***********************/
 /* SYNTAX HIGHLIGHTING */

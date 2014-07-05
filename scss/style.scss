@@ -71,9 +71,9 @@ a {
   color: $orange;
   text-decoration: none;
   cursor: pointer;
-  &:hover, &:active {
-    color: $orange;
-  }
+  // &:hover, &:active {
+  //   color: $orange;
+  // }
 }
 
 a.see-more {
@@ -119,6 +119,50 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+}
+
+form {
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0 0;
+  }
+
+  input[type="text"], input[type="email"] {
+    font-family: $helvetica;
+    font-size: 18px;
+    border: 1px solid $lighterGray;
+    color: $darkGray;
+    display: block;
+    border-radius: 2px;
+    padding: 0.4em 0.5em;
+    margin: 0 0 0.5em;
+    -webkit-appearance: none;
+
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+
+    &:active {
+      border: 1px solid $gray;
+    }
+  }
+}
+
+.email-signup {
+  input[type="text"], input[type="email"] {
+    width: 240px;
+  }
+
+  .button {
+    //background: $blue;
+    margin: 0.25em 0;
+  }
+
+  p {
+    font-size: 12px;
+  }
 }
 
 .button {
@@ -211,7 +255,7 @@ img {
   margin: 0;
   margin-top: 2px;
   max-width: 310px;
-  color: $darkGray;
+  color: white;//$darkGray;
   font-family: $georgia;//$helveticaNeue;
   font-weight: 300; 
   font-size: 19px;
@@ -240,7 +284,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $gray;
+    color: white;//$gray;
     text-align: right;
     font-weight: 300;
 
@@ -301,7 +345,7 @@ footer {
   border: 1px solid #ddd;
   margin-top: 25px;
   padding: 10px 30px;
-  max-width: 800px;
+  max-width: 730px;
   background-color: $lighterGray;
 
   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.3);
@@ -310,105 +354,31 @@ footer {
 
   .description {
     float: left;
-    max-width: 330px;
+    max-width: 360px;
+    padding-right: 30px;
     border-right: 2px solid $lightGray;
   }
 
   form {
-    background-color: $lightGray;
-  
-    float: right;
-    max-width: 350px;
-
-    label {
-      display: block;
-      font-size: 16px;
-      font-weight: 400;
-      margin: 10px 0 0;
-    }
-
-    input[type="text"], input[type="email"] {
-      font-family: $helvetica;
-      font-size: 18px;
-      border: 1px solid $lighterGray;
-      color: $darkGray;
-      width: 280px;
-      display: block;
-      border-radius: 2px;
-      padding: 0.4em 0.5em;
-      margin: 0 0 0.5em;
-      -webkit-appearance: none;
-
-      -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.5);
-      -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-
-      &:active {
-        border: 1px solid $gray;
-      }
-    }
-
-    .button {
-      //background: $blue;
-      margin: 0.25em 0;
-    }
-
-    p {
-      font-size: 12px;
-    }
+    float: left;
+    padding: 30px;
+    //background-color: $lightGray;
   }
 }
 
-// .newsletter
+.newsletter-page {
+  form {
+    margin-top: 25px;
+    padding: 10px 30px;
+    max-width: 300px;
 
-form {
-  background-color: white;//$lighterGray;
-  border: 1px solid #ddd;
-  margin-top: 25px;
-  padding: 10px 30px;
-  max-width: 350px;
-
-  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.3);
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-
-  label {
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 10px 0 0;
+    background-color: $lighterGray;
+    border: 1px solid #ddd;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);    
   }
-
-  input[type="text"], input[type="email"] {
-    font-family: $helvetica;
-    font-size: 18px;
-    border: 1px solid $lighterGray;
-    color: $darkGray;
-    width: 280px;
-    display: block;
-    border-radius: 2px;
-    padding: 0.4em 0.5em;
-    margin: 0 0 0.5em;
-    -webkit-appearance: none;
-
-    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.5);
-    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-
-    &:active {
-      border: 1px solid $gray;
-    }
-  }
-
-  .button {
-    //background: $blue;
-    margin: 0.25em 0;
-  }
-
-  p {
-    font-size: 12px;
-  }
-}
+}   
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

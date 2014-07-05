@@ -11,21 +11,6 @@
 		</ul>
 	</div>
 
-	<form action="http://twitter.us2.list-manage1.com/subscribe/post?u={{ site.mailchimp.user-id }}&amp;id={{ site.mailchimp.list-id }}" method="post" novalidate>
-		<div class="field-group">
-			<label>Email Address</label>
-			<input type="email" value="" name="EMAIL">
-		</div>
-		<div class="field-group">
-			<label>First Name</label>
-			<input type="text" value="" name="FNAME">
-		</div>
-		
-		<!-- bot signup protection - real people won't fill this in -->
-	    <div style="position: absolute; left: -5000px;"><input type="text" name="b_{{ site.mailchimp.user-id }}_{{ site.mailchimp.list-id }}" tabindex="-1" value=""></div>
-	    
-	    <input type="submit" value="Subcribe to my Newsletter" name="subscribe" class="button">
-	    <p>No spam. You can unsubscribe at any time.</p>
-	</form>
+	{% include mailchimp-form.html %}
 </section>
 {% endif %}
