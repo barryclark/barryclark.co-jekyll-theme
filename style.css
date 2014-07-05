@@ -83,7 +83,7 @@ p {
   margin: 15px 0; }
 
 a {
-  color: #438ebb;
+  color: #568da7;
   text-decoration: none;
   cursor: pointer; }
 
@@ -157,7 +157,7 @@ form input[type="text"], form input[type="email"] {
   vertical-align: middle;
   border-radius: 2px;
   border: 0;
-  background: #fa6900;
+  background: #ff7715;
   color: white;
   font-size: 18px;
   font-family: Helvetica, Arial, sans-serif;
@@ -189,7 +189,7 @@ form input[type="text"], form input[type="email"] {
 /*/
 .wrapper-masthead {
   margin-bottom: 50px;
-  background-color: #438ebb;
+  background-color: #568da7;
   border-bottom: 1px solid #dddddd; }
 
 .masthead {
@@ -217,7 +217,7 @@ form input[type="text"], form input[type="email"] {
   margin: 0;
   margin-top: 7px;
   max-width: 316px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
   font-family: 'Merriweather', Georgia, serif;
   font-weight: 300;
   font-size: 16px;
@@ -251,7 +251,7 @@ nav {
     @media screen and (max-width: 640px) {
       nav a {
         margin: 0 10px;
-        color: #438ebb; } }
+        color: #568da7; } }
   nav .button {
     margin-left: 20px;
     font-size: 16px; }
