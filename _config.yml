@@ -2,12 +2,11 @@
 # This file contains configuration flags to customize your site
 #
 
-# Name of your site (displayed in the header)
-name: Barry Clark
+# Name of your site
+name: Barry Clark - Getting Hired as a Web Developer
 
-# Short bio or description (displayed in the header)
-description: Hi, I'm Barry Clark, a web developer and technical director writing about getting hired in web development.
-# description: Hi, I'm Barry Clark, a web developer who leads teams working on fabulous software projects.
+# Short bio or description
+description: Hi, I'm Barry Clark, a web developer and technical director writing about Getting Hired in Web Development.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: http://www.gravatar.com/avatar/36b4f56a7fa40d3c06e5afc4ed0b82b5?s=200
