@@ -3,9 +3,13 @@ layout: page
 title: About Me
 ---
 
-Mission statement in more detail.
+My mission is to help as many people as possible get started with a career as a Web Developer. My metric for success is simple: how many people have I helped get hired?
 
-Explaination of why I created this site, and what I'm doing with it. 
+1. I've been asked for help by friends on the same topics time after time.
+2. I believe that I can immensely improve people's chances of landing jobs. 
+3. Helping people reach there career potential is the most enjoyable and rewarding work I do.
+
+I'm writing for my bi-weekly newsletter that'll help you get hired in Web Developer.
 
 ## 7 Facts About Me
 
