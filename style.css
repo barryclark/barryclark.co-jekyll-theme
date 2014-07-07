@@ -293,7 +293,7 @@ footer {
 .cta {
   border: 1px solid #dddddd;
   margin-top: 25px;
-  padding: 10px 30px;
+  padding-left: 30px;
   max-width: 730px;
   background-color: #eeeeee;
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -301,11 +301,16 @@ footer {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
   .cta .description {
     float: left;
-    max-width: 360px;
-    padding-right: 30px;
-    border-right: 2px solid #dddddd; }
+    max-width: 390px;
+    padding-right: 30px; }
+    .cta .description h2 {
+      margin-bottom: 0px;
+      font-weight: 500; }
+    .cta .description p, .cta .description li {
+      color: #666666; }
   .cta form {
     float: left;
+    border-left: 1px solid #dddddd;
     padding: 30px; }
 
 .newsletter-page form {

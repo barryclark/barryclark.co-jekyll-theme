@@ -355,7 +355,7 @@ footer {
 .cta {
   border: 1px solid #ddd;
   margin-top: 25px;
-  padding: 10px 30px;
+  padding-left: 30px;
   max-width: 730px;
   background-color: $lighterGray;
 
@@ -365,13 +365,22 @@ footer {
 
   .description {
     float: left;
-    max-width: 360px;
+    max-width: 390px;
     padding-right: 30px;
-    border-right: 2px solid $lightGray;
+
+    h2 {
+      margin-bottom: 0px;
+      font-weight: 500;
+    }
+
+    p, li {
+      color: $gray;
+    }
   }
 
   form {
     float: left;
+    border-left: 1px solid $lightGray;
     padding: 30px;
     //background-color: $lightGray;
   }
