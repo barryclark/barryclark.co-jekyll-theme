@@ -257,6 +257,9 @@ nav {
     text-transform: capitalize;
     margin-bottom: 2px; }
 
+.post, .page {
+  max-width: 700px; }
+
 .posts > .post {
   padding-bottom: 1em;
   border-bottom: 1px solid #eeeeee; }
@@ -265,17 +268,15 @@ nav {
   padding-bottom: 1em;
   border-bottom: none; }
 
-.post {
-  max-width: 700px; }
-  .post blockquote {
-    margin: 1.8em 0.8em;
-    border-left: 2px solid #666666;
-    padding: 0.1em 1em;
-    color: #666666;
-    font-size: 22px;
-    font-style: italic; }
-  .post .comments {
-    margin-top: 10px; }
+.post blockquote {
+  margin: 1.8em 0.8em;
+  border-left: 2px solid #666666;
+  padding: 0.1em 1em;
+  color: #666666;
+  font-size: 22px;
+  font-style: italic; }
+.post .comments {
+  margin-top: 10px; }
 
 .wrapper-footer {
   margin-top: 50px;

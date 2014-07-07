@@ -310,6 +310,10 @@ nav {
 // .main
 //
 
+.post, .page {
+  max-width: 700px;
+}
+
 .posts > .post {
   padding-bottom: 1em;
   border-bottom: 1px solid $lighterGray;
@@ -321,8 +325,6 @@ nav {
 }
 
 .post {
-  max-width: 700px;
-
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
