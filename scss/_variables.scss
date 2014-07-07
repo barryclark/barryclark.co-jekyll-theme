@@ -24,7 +24,7 @@ $merriweather: 'Merriweather', Georgia, serif;
 
 // Mobile breakpoints
 @mixin mobile {
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 800px) {
     @content;
   }
 }

@@ -270,7 +270,7 @@ form {
   @include mobile {
     float: none;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 }
 
@@ -282,9 +282,7 @@ nav {
   
   @include mobile {
     float: none;
-    margin-top: 9px;
     display: block;
-    font-size: 16px;
   }
 
   a {
@@ -296,7 +294,6 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
     }
   }
 

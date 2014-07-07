@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.6;
   margin: 1em 0 15px;
   padding: 0; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 800px) {
     h1, h2, h3, h4, h5, h6 {
       line-height: 1.4; } }
 
@@ -194,7 +194,7 @@ form input[type="text"], form input[type="email"] {
 
 .masthead {
   padding: 35px 0; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 800px) {
     .masthead {
       text-align: center; } }
 
@@ -204,7 +204,7 @@ form input[type="text"], form input[type="email"] {
   height: 90px;
   margin-right: 40px;
   cursor: pointer; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 800px) {
     .site-avatar {
       float: none;
       display: block;
@@ -226,33 +226,30 @@ form input[type="text"], form input[type="email"] {
   .site-description b {
     color: white;
     font-weight: 400; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 800px) {
     .site-description {
       float: none;
       display: block;
-      margin: 0 auto; } }
+      margin: 20px auto; } }
 
 nav {
   float: right;
   margin-top: 29px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 800px) {
     nav {
       float: none;
-      margin-top: 9px;
-      display: block;
-      font-size: 16px; } }
+      display: block; } }
   nav a {
     margin-left: 20px;
     color: rgba(255, 255, 255, 0.7);
     text-align: right;
     font-weight: 400;
     text-transform: uppercase; }
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 800px) {
       nav a {
-        margin: 0 10px;
-        color: #4f95b6; } }
+        margin: 0 10px; } }
   nav .button {
     margin-left: 20px;
     font-size: 16px;
