@@ -360,6 +360,10 @@ footer {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 
+  @media screen and (max-width: 730px) {
+    max-width: 450px;
+  }
+
   .description {
     float: left;
     max-width: 390px;
@@ -380,6 +384,11 @@ footer {
     border-left: 1px solid $lightGray;
     padding: 30px;
     //background-color: $lightGray;
+
+    @include mobile {
+      border-left: none;
+      padding: 10px;
+    }
   }
 }
 

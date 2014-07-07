@@ -296,6 +296,9 @@ footer {
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
+  @media screen and (max-width: 730px) {
+    .cta {
+      max-width: 450px; } }
   .cta .description {
     float: left;
     max-width: 390px;
@@ -309,6 +312,10 @@ footer {
     float: left;
     border-left: 1px solid #dddddd;
     padding: 30px; }
+    @media screen and (max-width: 800px) {
+      .cta form {
+        border-left: none;
+        padding: 10px; } }
 
 .newsletter-page form {
   margin-top: 25px;
