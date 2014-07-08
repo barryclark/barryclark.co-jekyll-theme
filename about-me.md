@@ -3,19 +3,19 @@ layout: page
 title: About Me
 ---
 
-My mission is to help as many people as possible get started with a career as a Web Developer. My metric for success is simple: how many people have I helped get hired?
+# Hi There!
 
-1. I've been asked for help by friends on the same topics time after time.
-2. I believe that I can immensely improve people's chances of landing jobs. 
-3. Helping people reach there career potential is the most enjoyable and rewarding work I do.
+My name is Barry and I build websites. I'm the [Director of Technical Product at DoSomething.org](https://www.linkedin.com/in/bazclark) where I manage our team of web developers.
 
-I'm writing for my bi-weekly newsletter that'll help you get hired in Web Developer.
+I love writing code, but more than anything I enjoy helping other aspiring developers create sensational careers doing what you love—writing code. If you're a fellow developer, just starting out, or looking to get your first serious job in web development, this site is for you.
 
-## 7 Facts About Me
+The best place to start is with [my free newsletter]({{ site.baseurl }}/newsletter) where I deliver content twice per month that'll help you get hired as a web developer.
+
+## 7 Random Facts About Me
 
 1. I'm originally from Edinburgh, Scotland—now living in Brooklyn, NYC.
-2. I work as a [Technical Director at DoSomething.org](https://www.linkedin.com/in/bazclark), where I lead a team of Software Engineers.
-3. I organize [Tech For Good NYC Meetup](http://www.meetup.com/Tech-For-Good-NYC/).
+2. I organize [Tech For Good NYC Meetup](http://www.meetup.com/Tech-For-Good-NYC/).
+3. 
 4. I occasionally write for [Smashing Magazine](http://www.smashingmagazine.com).
 5. I was a Professional Poker Player for 3 years and once turned $10 into $100,000.
 6. I keep a running list of [things I want to do before I die]({{ site.baseurl }}/bucket-list).
