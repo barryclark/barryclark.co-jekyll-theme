@@ -25,7 +25,7 @@ The best place to start is with [my free newsletter]({{ site.baseurl }}/newslett
 ## Recent Projects
 
 [**Get Hired as a Web Developer**]({{ site.baseurl }}/newsletter)  
-A blog and newsletter aiming to help you get hired as a web developer.
+That's this blog and newsletter aiming to help you get hired as a web developer.
 
 [**Jekyll Now**](http://github.com/barryclark/jekyll-now)  
 Create a Jekyll blog in minutes, without touching the command line.
@@ -35,4 +35,4 @@ Bootstrap for your terminal. A quick way to spruce up OSX terminal. It cuts out 
 
 ## Let's grab coffee
 
-I'm always up for meetings up and grabbing a coffee in NYC, or virtually via Google Hangout. [Shoot me a message](mailto:barry@barryclark.co?subject=Let's coffee up) and let's chat.
+I'm always up for grabbing a coffee in NYC, or virtually via Google Hangout. [Shoot me a message](mailto:barry@barryclark.co?subject=Let's coffee up) and let's coffee up and chat.
