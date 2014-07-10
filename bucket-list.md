@@ -5,7 +5,7 @@ title: Bucket List
 
 <h1>Things to do before I die</h1>
 
-<p>I started this list back when I was 21. The only rule is that I can never (ever!) delete items from it, only add to it.</p>
+<p>I started this list when I was 21 years old. The only rule is that I can never (ever!) delete items from it. I can only add to it.</p>
 
 <ul>
 	<li><strike>Eat Kobe beef</strike></li>
