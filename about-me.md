@@ -5,7 +5,7 @@ title: About Me
 
 # Hi There!
 
-My name is Barry and I'm from NYC. I'm the [Director of Technical Product at DoSomething.org](https://www.linkedin.com/in/bazclark) where I help manage our team of developers.
+My name is Barry and I'm from NYC. I'm the [Director of Technical Product at DoSomething.org](https://www.linkedin.com/in/bazclark) where I serve as the chief unblocker and systems thinker within our engineering team.
 
 ![DoSomething.org Tech Team - End of 2013](/images/DoSomething-Tech-Team.jpg "DoSomething.org Tech Team - End of 2013")
 
