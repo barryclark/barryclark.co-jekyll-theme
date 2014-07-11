@@ -291,6 +291,7 @@ footer {
 .cta {
   border: 1px solid #dddddd;
   margin-top: 25px;
+  margin-bottom: 25px;
   padding-left: 30px;
   max-width: 730px;
   background-color: #eeeeee;
