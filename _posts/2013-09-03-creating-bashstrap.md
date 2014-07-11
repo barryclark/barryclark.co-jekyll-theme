@@ -1,5 +1,5 @@
 ---
-title: 'Creating Bashstrap &#8211; bootstrap for your terminal'
+title: 'Creating Bashstrap: bootstrap for your terminal'
 author: bazclark
 layout: post
 permalink: /creating-bashstrap/

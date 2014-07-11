@@ -1,5 +1,5 @@
 ---
-title: 'Hack: Typography'
+title: 'Hack Typography'
 author: bazclark
 layout: post
 permalink: /hack-typography/
