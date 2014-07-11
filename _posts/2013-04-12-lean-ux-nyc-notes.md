@@ -1,5 +1,5 @@
 ---
-title: 'Lean UX NYC Day #1: Notes'
+title: 'Lean UX NYC Day #1 Notes'
 author: bazclark
 layout: post
 permalink: /lean-ux-nyc-notes/
