@@ -167,6 +167,7 @@ form input[type="text"], form input[type="email"] {
   text-shadow: none;
   background-image: none;
   white-space: nowrap;
+  -webkit-appearance: none;
   cursor: pointer; }
 
 ::-moz-selection {
