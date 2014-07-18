@@ -287,15 +287,11 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    padding: 10px;
     color: $transparentGray;
     text-align: right;
     font-weight: 400;
     text-transform: uppercase;
-
-    @include mobile {
-      margin: 0 10px;
-    }
   }
 
   .button {

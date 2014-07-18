@@ -243,14 +243,11 @@ nav {
       float: none;
       display: block; } }
   nav a {
-    margin-left: 20px;
+    padding: 10px;
     color: rgba(255, 255, 255, 0.7);
     text-align: right;
     font-weight: 400;
     text-transform: uppercase; }
-    @media screen and (max-width: 800px) {
-      nav a {
-        margin: 0 10px; } }
   nav .button {
     margin-left: 20px;
     font-size: 16px;
