@@ -1,5 +1,6 @@
 ---
 layout: page
+cta: newsletter
 title: About Me
 ---
 
@@ -24,15 +25,11 @@ The best place to start is with [my free newsletter]({{ site.baseurl }}/newslett
 
 ## Recent Projects
 
-[**Get Hired as a Web Developer**]({{ site.baseurl }}/newsletter)  
-That's this blog and newsletter aiming to help you get hired as a web developer.
-
 [**Jekyll Now**](http://github.com/barryclark/jekyll-now)  
 Create a Jekyll blog in minutes, without touching the command line.
 
 [**Bashstrap**](http://github.com/barryclark/bashstrap)  
 Bootstrap for your terminal. A quick way to spruce up OSX terminal. It cuts out the fluff, adds in timesaving features, and provides a solid foundation for customizing your terminal style. 
 
-## Let's grab coffee
-
-I'm always up for grabbing a coffee in NYC, or virtually via Google Hangout. [Shoot me a message](mailto:barry@barryclark.co?subject=Let's coffee up) and let's coffee up and chat.
+[**Get Hired as a Web Developer**]({{ site.baseurl }}/newsletter)  
+That's this blog aiming to help you get hired as a web developer. You can sign up to my newsletter below.
