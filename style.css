@@ -235,11 +235,13 @@ form input[type="text"], form input[type="email"] {
 
 nav {
   float: right;
+  margin-right: 20px;
   margin-top: 29px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px; }
   @media screen and (max-width: 800px) {
     nav {
+      margin-right: none;
       float: none;
       display: block; } }
   nav a {
@@ -255,8 +257,9 @@ nav {
     text-transform: capitalize;
     margin-bottom: 2px; }
 
-.post, .page {
-  max-width: 700px; }
+.post, .page, .comments {
+  max-width: 700px;
+  margin: 0 auto; }
 
 .posts > .post {
   padding-bottom: 1em;
@@ -288,8 +291,7 @@ footer {
 
 .cta {
   border: 1px solid #dddddd;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin: 25px auto;
   padding-left: 30px;
   max-width: 730px;
   background-color: #eeeeee;

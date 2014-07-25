@@ -277,11 +277,13 @@ form {
 
 nav {
   float: right;
+  margin-right: 20px;
   margin-top: 29px; // @TODO: Vertically middle align
   font-family: $helvetica; 
   font-size: 12px;
   
   @include mobile {
+    margin-right: none;
     float: none;
     display: block;
   }
@@ -307,8 +309,9 @@ nav {
 // .main
 //
 
-.post, .page {
+.post, .page, .comments {
   max-width: 700px;
+  margin: 0 auto;
 }
 
 .posts > .post {
@@ -350,8 +353,7 @@ footer {
 
 .cta {
   border: 1px solid #ddd;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin: 25px auto;
   padding-left: 30px;
   max-width: 730px;
   background-color: $lighterGray;
