@@ -251,11 +251,12 @@ nav {
     font-weight: 400;
     text-transform: uppercase; }
   nav .button {
-    margin-left: 20px;
-    font-size: 16px;
-    color: white;
-    text-transform: capitalize;
-    margin-bottom: 2px; }
+    margin-left: 15px;
+    margin-bottom: 3px;
+    padding: 0.5em 0.8em 0.5em;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white; }
 
 .post, .page, .comments {
   max-width: 680px;
