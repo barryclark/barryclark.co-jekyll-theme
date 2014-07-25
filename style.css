@@ -236,7 +236,7 @@ form input[type="text"], form input[type="email"] {
 nav {
   float: right;
   margin-right: 20px;
-  margin-top: 29px;
+  margin-top: 31px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px; }
   @media screen and (max-width: 800px) {
