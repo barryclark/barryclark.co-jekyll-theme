@@ -237,7 +237,7 @@ form {
   float: left;
   width: 90px;
   height: 90px;
-  margin-right: 40px;
+  margin-right: 30px;
   cursor: pointer;
 
   @include mobile {
@@ -283,7 +283,7 @@ nav {
   font-size: 12px;
   
   @include mobile {
-    margin-right: none;
+    margin-right: 0;
     float: none;
     display: block;
   }

@@ -203,7 +203,7 @@ form input[type="text"], form input[type="email"] {
   float: left;
   width: 90px;
   height: 90px;
-  margin-right: 40px;
+  margin-right: 30px;
   cursor: pointer; }
   @media screen and (max-width: 800px) {
     .site-avatar {
@@ -241,7 +241,7 @@ nav {
   font-size: 12px; }
   @media screen and (max-width: 800px) {
     nav {
-      margin-right: none;
+      margin-right: 0;
       float: none;
       display: block; } }
   nav a {
