@@ -189,7 +189,7 @@ form input[type="text"], form input[type="email"] {
 /* LAYOUT / SECTIONS
 /*/
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   background-color: #4f95b6;
   border-bottom: 1px solid #dddddd; }
 
@@ -275,13 +275,13 @@ nav {
   border-left: 2px solid #666666;
   padding: 0.1em 1em;
   color: #666666;
-  font-size: 2px;
+  font-size: 20px;
   font-style: italic; }
 .post .comments {
   margin-top: 10px; }
 
 .wrapper-footer {
-  margin-top: 50px;
+  margin-top: 40px;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
   background-color: #eeeeee; }
