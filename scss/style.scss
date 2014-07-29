@@ -22,7 +22,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 938px;
+  max-width: 900px;
   padding: 0 10px;
   width: 100%;
 }
@@ -278,7 +278,6 @@ form {
 
 nav {
   float: right;
-  margin-right: 20px;
   margin-top: 31px; // @TODO: Vertically middle align
   font-family: $helvetica; 
   font-size: 12px;
@@ -312,7 +311,7 @@ nav {
 //
 
 .post, .page, .comments {
-  max-width: 680px;
+  max-width: 640px;
   margin: 0 auto;
 }
 

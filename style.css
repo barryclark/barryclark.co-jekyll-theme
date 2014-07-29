@@ -47,7 +47,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 938px;
+  max-width: 900px;
   padding: 0 10px;
   width: 100%; }
 
@@ -236,7 +236,6 @@ form input[type="text"], form input[type="email"] {
 
 nav {
   float: right;
-  margin-right: 20px;
   margin-top: 31px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px; }
@@ -260,7 +259,7 @@ nav {
     color: #eeeeee; }
 
 .post, .page, .comments {
-  max-width: 680px;
+  max-width: 640px;
   margin: 0 auto; }
 
 .posts > .post {
