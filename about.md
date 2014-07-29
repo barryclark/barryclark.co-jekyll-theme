@@ -14,15 +14,6 @@ I love building things, but more than anything I enjoy helping other aspiring de
 
 The best place to start is with [my free newsletter]({{ site.baseurl }}/newsletter) where I deliver articles twice per month that will help you get hired as a web developer.
 
-## 6 Random Facts About Me
-
-1. I'm originally from Edinburgh, Scotland.
-2. I keep a running list of [things I want to do before I die]({{ site.baseurl }}/bucket-list).
-3. I used to be a Professional Poker Player and once turned a single $10 deposit into $100,000.
-4. I occasionally write for [Smashing Magazine](http://www.smashingmagazine.com).
-5. I designed and programmed a number of the gunfights and car chases in the world record breaking video-game, Grand Theft Auto 4.
-6. I organize [Tech For Good NYC Meetup](http://www.meetup.com/Tech-For-Good-NYC/)—come join!
-
 ## Recent Projects
 
 [**Jekyll Now**](http://github.com/barryclark/jekyll-now)  
@@ -33,3 +24,12 @@ Bootstrap for your terminal. A quick way to spruce up OSX terminal. It cuts out 
 
 [**Get Hired as a Web Developer**]({{ site.baseurl }}/newsletter)  
 That's this blog aiming to help you get hired as a web developer. You can sign up to my newsletter below.
+
+## 6 Random Facts About Me
+
+1. I'm originally from Edinburgh, Scotland.
+2. I keep a running list of [things I want to do before I die]({{ site.baseurl }}/bucket-list).
+3. I used to be a Professional Poker Player and once turned a single $10 deposit into $100,000.
+4. I occasionally write for [Smashing Magazine](http://www.smashingmagazine.com).
+5. I designed and programmed a number of the gunfights and car chases in the world record breaking video-game, Grand Theft Auto 4.
+6. I organize [Tech For Good NYC Meetup](http://www.meetup.com/Tech-For-Good-NYC/)—come join!
