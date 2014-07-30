@@ -32,19 +32,14 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: 600;
   
-  line-height: 1.6;
+  line-height: 1.4;
   margin: 1em 0 15px;
   padding: 0;
-
-  @include mobile {
-    line-height: 1.4;
-  }
 }
   
 h1 {
   font-weight: 500;
   font-size: 32px;
-  line-height: 1.4;
   a {
     color: inherit;
   }
@@ -53,7 +48,6 @@ h1 {
 h2 {  
   font-weight: 500;
   font-size: 28px;
-  line-height: 1.4;
   padding-top: 20px;
 }
 
