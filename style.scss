@@ -114,6 +114,11 @@ strong, b {
 img {
   max-width: 100%;
 }
+img.alignleft {
+  float: left;
+  width: 50%;
+  margin: 0 0 10px 10px;
+}
 img.alignright {
   float: right;
   width: 50%;
