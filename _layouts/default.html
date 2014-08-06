@@ -12,6 +12,11 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+    {% if page.featured-image %}
+    <meta property="og:image" content="{{ site.url }}/images/{{ page.featured-image }}">
+    <link rel="image_src" href="{{ site.url }}/images/{{ page.featured-image }}">
+    {% endif %}
+
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
