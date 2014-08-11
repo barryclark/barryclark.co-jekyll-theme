@@ -15,8 +15,8 @@
     {% if page.featured-image %}
     <meta property="og:url" content="{{ site.url }}{{ page.url }}/" />
     <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:image" content="{{ site.url }}/images/{{ page.featured-image }}" />
-    <link rel="image_src" href="{{ site.url }}/images/{{ page.featured-image }}" />
+    <meta property="og:image" content="{{ site.imagesurl }}/{{ page.featured-image }}" />
+    <link rel="image_src" href="{{ site.imagesurl }}/{{ page.featured-image }}" />
     {% endif %}
 
     <!--[if lt IE 9]>

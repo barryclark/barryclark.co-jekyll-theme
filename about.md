@@ -8,7 +8,7 @@ title: About Me
 
 My name is Barry and I'm from NYC. I'm the [Director of Technical Product at DoSomething.org](https://www.linkedin.com/in/bazclark) where I serve as the chief unblocker within our engineering team.
 
-![DoSomething.org Tech Team - End of 2013](/images/DoSomething-Tech-Team.jpg "DoSomething.org Tech Team - End of 2013")
+![DoSomething.org Tech Team - End of 2013]({{ site.imagesurl }}/DoSomething-Tech-Team.jpg "DoSomething.org Tech Team - End of 2013")
 
 I love building things, but more than anything I enjoy helping other aspiring developers create sensational careers doing what they love—writing code. If you're a fellow developer, just starting out, or looking to get your first serious job in web development, this site is for you.
 
