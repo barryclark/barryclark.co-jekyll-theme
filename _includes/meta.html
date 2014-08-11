@@ -1,0 +1,27 @@
+
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}" />
+    {% endif %}
+    <meta name="author" content="Barry Clark" />
+    <meta property="twitter:creator" content="@baznyc" />
+    <meta name="twitter:site" content="@baznyc">
+    <meta property="twitter:account_id" content="45236980" />
+
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="twitter:title" content="{{ page.title }}" />
+    {% endif %}
+    {% if page.featured-image %}
+    <meta property="og:image" content="{{ site.imagesurl }}/{{ page.featured-image }}" />
+    <link rel="image_src" href="{{ site.imagesurl }}/{{ page.featured-image }}" />
+    {% endif %}
