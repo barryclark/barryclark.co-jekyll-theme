@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Bucket List
+permalink: /bucket-list/
 ---
 
 <h1>Things to do before I die</h1>
