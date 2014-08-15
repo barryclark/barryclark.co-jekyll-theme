@@ -10,7 +10,7 @@ My name is Barry and I'm from NYC. I'm the [Director of Technical Product at DoS
 
 ![DoSomething.org Tech Team - End of 2013]({{ site.imagesurl }}/DoSomething-Tech-Team.jpg "DoSomething.org Tech Team - End of 2013")
 
-I love building things, but more than anything I enjoy helping other aspiring developers create sensational careers doing what they love—writing code. If you're a fellow developer, just starting out, or looking to get your first serious job in web development, this site is for you.
+I love building things, but more than anything I enjoy helping other aspiring developers create careers doing what they love—writing code. If you're a fellow developer, just starting out, or looking to get your first serious job in web development, this site is for you.
 
 The best place to start is with [my free newsletter]({{ site.baseurl }}/newsletter) where I deliver articles twice per month that will help you get hired as a web developer.
 
