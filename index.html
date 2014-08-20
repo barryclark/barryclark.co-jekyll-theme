@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+    {% unless post.draft %}
     <article class="post">    
-      
+
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
@@ -14,7 +14,7 @@ layout: default
       
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
-  {% endfor %}
+    {% endunless %}
 </div>
 
 {% include cta-newsletter.html %}
