@@ -321,6 +321,42 @@ nav {
 .post, .page, .comments {
   max-width: 640px;
   margin: 0 auto;
+  @media screen and (max-width: 730px) {
+    padding: 0 10px;
+  }
+}
+
+.portfolio {
+
+  h1, .date {
+    max-width: 640px;
+    margin: 0 auto;
+    @media screen and (max-width: 730px) {
+      padding: 0 10px;
+    }
+  }
+
+  section {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    img {
+      width: 60%;
+      margin-right: 20px;
+      float: left;
+
+      @media screen and (max-width: 860px) {
+        width: 100%;
+        float: none;
+        margin-right: 0px;
+      }
+    }
+
+    p {
+
+    }
+  }
 }
 
 .posts > .post {

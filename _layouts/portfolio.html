@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="post">
+<article class="portfolio">
   <h1>{{ page.title }}</h1>
 
   <div class="date">
@@ -10,10 +10,6 @@ layout: default
   </div>
     
   <div class="entry">
-  	{% if page.featured-image %}
-  	<img class="alignright" src="{{ site.imagesurl }}/{{ page.featured-image }}" >
-  	{% endif %}
-
     {{ content }}
   </div>
 </article>
