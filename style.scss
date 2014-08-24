@@ -343,6 +343,7 @@ nav {
       width: 60%;
       margin-right: 20px;
       float: left;
+      border: solid 1px $lightGray;
 
       @media screen and (max-width: 860px) {
         width: 100%;
