@@ -1,6 +1,15 @@
 {% if site.mailchimp %}
-<section class="cta clearfix">
+<section id="cta" class="cta clearfix">
 	<div class="description">
+
+		{% if page.cta == 'portfolio' %}
+		<h3>Don't miss the next portfolio study!</h3>
+		<p>I'll send you a quick update when I publish a new portfolio study or any other portfolio related content.</p>
+
+		<p>I email out roughly once every two weeks.</p>
+
+		{% else %}
+		
 		<h3>Web Developer Career Newsletter</h3>
 		<p>A free email list for software engineers who want to get the most out of their career, delivered once every two weeks.</p>
 		<ul>
@@ -8,6 +17,7 @@
 			<li>The best web developer portfolios</li>
 			<li>How hiring managers screen applications</li>
 		</ul>
+		{% endif %}
 	</div>
 
 	{% include mailchimp-form.html %}
