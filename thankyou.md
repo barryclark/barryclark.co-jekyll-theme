@@ -4,9 +4,7 @@ title: Thankyou
 permalink: /thankyou/
 ---
 
-# Great! Now click the confirmation link in the email you just received
+## Great! Click the confirmation link in the email you just received and you'll be added to the list.
 
-You'll be added to the list as soon as you've done this.
-
-Thanks!  
+Thanks,  
 Barry
