@@ -1,0 +1,15 @@
+{% if site.mailchimp %}
+<section id="cta" class="cta clearfix">
+	<div class="description">
+		<h3>Web Developer Career Newsletter</h3>
+		<p>A free email list for software engineers who want to get the most out of their career, delivered once every two weeks.</p>
+		<ul>
+			<li>Resume and cover letter examples</li>
+			<li>The best web developer portfolios</li>
+			<li>How hiring managers screen applications</li>
+		</ul>
+	</div>
+
+	{% include mailchimp-form.html %}
+</section>
+{% endif %}
