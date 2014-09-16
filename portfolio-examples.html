@@ -6,6 +6,8 @@ layout: default
 
   <h1>Web Developer Portfolio Examples</h1>
 
+  <p>Explain what the portfolio example posts are all about.</p>
+
   {% for post in site.posts %}
   {% if post.layout == 'portfolio' %}
   {% unless post.draft %}
@@ -13,7 +15,9 @@ layout: default
 
     <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
     <img class="alignleft" src="{{ site.imagesurl }}/{{ post.featured-image }}" />
-    <p>{{ post.intro }}</p>
+    <div class="entry">
+      {{ post.content | split:"<!--more-->" | first }}
+    </div>
     
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
   </div>
