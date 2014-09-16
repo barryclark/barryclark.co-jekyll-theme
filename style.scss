@@ -122,6 +122,13 @@ img.alignright {
   width: 40%;
   margin: 0 0 10px 10px;
 }
+/* emoji never get resized */
+img.emoji {
+  width: 20px !important;
+  margin: 0px !important;
+  float: none !important;
+  border: none !important;
+}
 
 .date {
   color: $gray;
@@ -316,7 +323,7 @@ nav {
 // .main
 //
 
-.post, .page, .comments {
+.post, .page {
   max-width: 640px;
   margin: 0 auto;
   @media screen and (max-width: 730px) {
@@ -377,10 +384,6 @@ nav {
     color: $gray;
     font-size: 20px;
     font-style: italic;
-  }
-
-  .comments {
-    margin-top: 10px;
   }
 }
 
