@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="collection">
+
+  <h1>Web Developer Portfolio Examples</h1>
+
+  {% for post in site.posts %}
+  {% if post.layout == 'portfolio' %}
+  {% unless post.draft %}
+  <div class="collection-item">
+
+    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    <img class="alignleft" src="{{ site.imagesurl }}/{{ post.featured-image }}" />
+    <p>{{ post.intro }}</p>
+    
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+  </div>
+  {% endunless %}
+  {% endif %}
+  {% endfor %}
+</div>
+
+{% include cta-portfolio-checklist.html %}
