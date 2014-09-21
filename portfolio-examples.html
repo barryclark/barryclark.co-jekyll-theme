@@ -1,29 +1,35 @@
 ---
 layout: default
+permalink: /portfolio-examples/
 ---
 
-<div class="collection">
+<div class="posts">
+  <article class="post">    
 
-  <h1>Web Developer Portfolio Examples</h1>
+    <h1>Web Developer Portfolio Examples</h1>
 
-  <p>As a web developer, your portfolio is an essential piece of your job application. It’s an opportunity to demonstrate a curated selection of your best pieces of work—or maybe your only work if you’re new! If done right, your portfolio will give you a huge advantage amongst a sea of applicants.</p>
+    <p>As a web developer, your portfolio is an essential piece of your job application. It’s an opportunity to demonstrate a curated selection of your best pieces of work—or maybe your only work if you’re new! If done right, your portfolio will give you a huge advantage amongst a sea of applicants.</p>
 
-  <p>In these portfolio studies, you’re going to find out how the pros do it. I’m hand-picking the best web developer and web designer portfolios on the internet and breaking them down piece by piece, giving you ideas and inspiration for your portfolio site.</p>
+    <p>In these portfolio examples, you’re going to find out how the pros do it. I’m hand-picking the best web developer portfolios on the internet and breaking them down piece by piece, giving you ideas and inspiration for your portfolio website.</p>
+  </article>
 
   {% for post in site.posts %}
   {% if post.layout == 'portfolio' %}
   {% unless post.draft %}
-  <div class="collection-item">
+  <article class="post">    
 
-    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-    <img class="alignleft" src="{{ site.imagesurl }}/{{ post.featured-image }}" />
-    <p>{{ post.intro }}</p>
-    
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+    <div class="entry">
+      {{ post.content | split:"<!--more-->" | first }}
+    </div>
+      
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-  </div>
+  </article>
   {% endunless %}
   {% endif %}
   {% endfor %}
+
 </div>
 
 {% include cta-portfolio-checklist.html %}
