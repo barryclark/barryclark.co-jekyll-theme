@@ -6,7 +6,9 @@ layout: default
 
   <h1>Web Developer Portfolio Examples</h1>
 
-  <p>Explain what the portfolio example posts are all about.</p>
+  <p>As a web developer, your portfolio is an essential piece of your job application. It’s an opportunity to demonstrate a curated selection of your best pieces of work—or maybe your only work if you’re new! If done right, your portfolio will give you a huge advantage amongst a sea of applicants.</p>
+
+  <p>In these portfolio studies, you’re going to find out how the pros do it. I’m hand-picking the best web developer and web designer portfolios on the internet and breaking them down piece by piece, giving you ideas and inspiration for your portfolio site.</p>
 
   {% for post in site.posts %}
   {% if post.layout == 'portfolio' %}
@@ -15,9 +17,7 @@ layout: default
 
     <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
     <img class="alignleft" src="{{ site.imagesurl }}/{{ post.featured-image }}" />
-    <div class="entry">
-      {{ post.content | split:"<!--more-->" | first }}
-    </div>
+    <p>{{ post.intro }}</p>
     
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
   </div>
