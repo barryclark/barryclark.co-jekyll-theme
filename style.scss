@@ -130,6 +130,15 @@ img.emoji {
   border: none !important;
 }
 
+.inline-cta {
+  padding: 10px 15px;
+  background-color: #FDEBDA;
+  border: solid 1px $lightGray;
+  a {
+    text-decoration: underline;
+  }
+}
+
 .date {
   color: $gray;
 }
