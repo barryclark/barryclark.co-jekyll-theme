@@ -3,13 +3,13 @@
 #
 
 # Name of your site
-name: Barry Clark - Getting Hired as a Web Developer
+name: Hongseok Jang
 
 # Short bio or description
-description: Hi, I&#39;m Barry Clark, a web developer from NYC. I write about web development and how to get hired.
+description: Computer Science student
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: http://www.gravatar.com/avatar/36b4f56a7fa40d3c06e5afc4ed0b82b5?s=200
+avatar: https://github.com/account
 
 #
 # Flags below are optional
@@ -18,21 +18,21 @@ avatar: http://www.gravatar.com/avatar/36b4f56a7fa40d3c06e5afc4ed0b82b5?s=200
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
-  email: barry@barryclark.co
+  email: hongseok219@gmail.com
   facebook: 
   flickr: 
-  github: barryclark
+  github: hongseok219
   instagram: 
-  linkedin: bazclark
+  linkedin: 
   pinterest: 
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: baznyc
+  twitter: 
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: 
+google_analytics: UA-89504424-1
 
 # Enter your Mailchimp User ID and Campaign ID
 # @TODO: Add in a link for where to find these
@@ -42,8 +42,8 @@ mailchimp:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.barryclark.co
-imagesurl: http://www.barryclark.co/images
+url: http://hongseok219.github.io/interview-prep
+#imagesurl: http://www.barryclark.co/images
 
 # If you're hosting your site at a Project repository on GitHub pages 
 # (http://yourusername.github.io/repository-name)
